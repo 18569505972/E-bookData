@@ -1,0 +1,36 @@
+{
+  "name": "ZYN",
+  "version": "1.0.0",
+  "description": "ZYN's blog",
+  "main": "index.js",
+  "time": "2018年1月",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZYN",
+  "license": "ISC",
+  "dependencies": {
+    "config-lite": "2.1.0",
+    "connect-flash": "0.1.1",
+    "connect-mongo": "2.0.0",
+    "ejs": "2.5.7",
+    "express": "4.16.2",
+    "express-formidable": "1.0.0",
+    "express-session": "1.15.6",
+    "express-winston": "2.4.0",
+    "marked": "0.3.6",
+    "moment": "2.19.2",
+    "mongolass": "3.1.5",
+    "mongoose": "5.0.0-rc2",
+    "objectid-to-timestamp": "1.3.0",
+    "sha1": "1.1.1",
+    "winston": "2.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
