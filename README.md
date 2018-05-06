@@ -3,8 +3,8 @@ express+fs+mongoose  
 --
 mongoDB表Schema：  
 ---
-	  >>nickNm[string]：用户  
-	  >>store[Array]：书籍收藏列表  
+	  nickNm[string]：用户  
+	  store[Array]：书籍收藏列表  
 	  imgUrl[string]：背景图  
 	  title[string]：书籍拼音名称  
 	  bookNm[string]：中文名  
