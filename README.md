@@ -1,5 +1,5 @@
 # E-bookData
-express+fs+mongoose
+express+fs+mongoose  
 mongoDB表Schema：  
 	  nickNm[string]：用户  
 	  store[Array]：书籍收藏列表  
