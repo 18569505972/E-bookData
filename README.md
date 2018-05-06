@@ -1,19 +1,23 @@
 # E-bookData
-##express+fs+mongoose  
-###mongoDB表Schema：  
-	  nickNm[string]：用户  
-	  store[Array]：书籍收藏列表  
+express+fs+mongoose  
+--
+mongoDB表Schema：  
+---
+	  >>nickNm[string]：用户  
+	  >>store[Array]：书籍收藏列表  
 	  imgUrl[string]：背景图  
 	  title[string]：书籍拼音名称  
 	  bookNm[string]：中文名  
 	  updated_at[date]：数据更新日期  
-###status返回状态集：  
-	  0：服务器返回失败  
+status返回状态集： 
+---
+	  0：服务器返回失败  
 	  1：返回成功  
 	  2：书籍已收藏  
 	  3：书籍已下架  
-###接口：  
-	  /getCollection（获取收藏列表）  
+接口：  
+---
+	  /getCollection（获取收藏列表）  
 		  输入：nickNm  
 		  输出：Array  
 	  /delectCollection（删除收藏书籍）  
